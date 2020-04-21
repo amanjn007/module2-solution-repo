@@ -1,0 +1,150 @@
+<style>
+		*{
+			box-sizing: border-box;
+		}
+		#box1{
+			background-color: skyblue;
+			border: 1px solid black;
+			padding: 0px;
+			margin:20px;
+			width: 30%;
+			float: left;
+
+		}
+		#content1{
+			background-color: skyblue;
+			float: left;
+
+
+		}
+
+			
+			#box2{
+			background-color: skyblue;
+			border: 1px solid black;
+			padding: 0px;
+			margin:20px;
+			width: 30%;
+			
+			float: left;
+             
+		}
+		#content2{
+			background-color: skyblue;
+			float: left;
+
+
+		}
+
+			
+			#box3{
+			background-color: skyblue;
+			border: 1px solid black;
+			padding: 0px;
+			margin:20px;
+			width: 30%;
+			float: left;
+             
+		}
+		#content3{
+			background-color: skyblue;
+			float: left;
+
+
+		}
+		h1{
+			text-align: center;
+			 font-weight:600;
+			 text-transform: capitalize;
+			 font-style: italic;
+			 font-size: 175%;
+			 font-family: all; 
+			 margin-bottom: 10%;
+
+		} 
+	
+		h2{
+
+			float: right;
+			margin :0px;
+		     background-color: pink ;
+		     border: 1px solid black;
+		      padding-left: 30px;
+		      padding-right: 30px; 
+               font-size: 26px;
+               font-weight: bold;
+                
+		  }
+		  	h3{
+			float: right;
+			margin :0px;
+		     background-color: maroon ;
+		     border: 1px solid black;
+		      padding-left: 30px;
+		      padding-right: 30px;
+              font-size: 26px;
+              color: white;
+              font-weight: bold;
+                
+		  }
+		    
+		  	h4{
+			float: right;
+			margin :0px;
+		     background-color: white ;
+		     border: 1px solid black;
+		       padding-left: 30px;
+		      padding-right: 30px;
+              font-size: 26px;
+              color: black;
+              font-weight: bold;
+                
+		  }
+		p{ padding-top: 25px; }
+		/***large devices****/
+		@media(min-width: 992px){
+			#box1{
+				float: left
+				width: 26%
+			      }
+				#box2{
+					float: left
+				width: 26%
+			}
+				#box3{
+					float:left;
+				width: 27%
+			}
+		}
+
+		@media(min-width: 768px) and (max-width:991px){
+		#box1{
+             float: left;
+			width:44%;
+		}
+		#box2{
+			float: left;
+			width:45%;
+		}
+		#box3{
+			float: none;
+			width:90%; 
+		}
+	}
+		/**small devices**/
+		@media(max-width: 767px){
+		 	#box1{
+             float: none;
+			width:85%;
+		}
+		#box2{
+			float: left;
+			width:85%;
+			border: 1px solid black;
+		}
+		#box3{
+			float: left;
+			width:85%; 
+		}
+
+}</style>
